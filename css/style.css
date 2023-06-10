@@ -1,0 +1,148 @@
+.container {
+    max-width: 1064px;
+}
+.main_banner{
+    background: #F0EFEB;
+    padding: 90px 0;
+    display: flex;
+    justify-content: center;
+}
+.main_banner article{
+    display: flex;
+    align-items: center;
+}
+.humanity h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+    margin-bottom: 42px;
+    width: 534px;
+}
+.humanity h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 26px;
+    width: 481px;
+}
+.humanity a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    padding: 7px 23px 9px;
+    text-decoration: none;
+    display: inline-block;
+}
+.guides {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 189px;
+}
+.guides .description {
+    text-align: center;
+    margin-top: 60px;
+}
+.explain {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+}
+.guides .description h3 {
+    margin-bottom: 27px;
+}
+.guides .description .teaser {
+    margin-bottom: 47px;
+    width: 632px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+}
+
+.guides .description .availability {
+    margin-bottom: 88px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+}
+.guides .best-sellers {
+    display: inline-block;
+    margin-bottom: 53px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+
+}
+.card p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+.card a{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+
+}
+
+.card:not(:last-child) {
+    margin-right: 63px;
+}
