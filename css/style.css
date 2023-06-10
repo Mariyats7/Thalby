@@ -72,7 +72,7 @@
 }
 .guides .best-sellers {
     display: inline-block;
-    margin-bottom: 53px;
+    margin-bottom: 52px;
     font: 36px/42px 'Roboto', sans-serif;
     font-weight: 700;
     text-align: center;
@@ -88,17 +88,23 @@
     flex-direction: column;
     align-items: center;
 }
+.img-cards{
+    margin-bottom: 27px;
+}
+
 .card h4{
     font: 17px/20px 'Roboto', sans-serif;
     font-weight: 700;
     text-align: center;
     color: #000000;
+    margin-bottom: 17px;
 }
 .card p{
     font: 17px/20px 'Roboto', sans-serif;
     font-weight: 400;
     text-align: center;
     color: #000000;
+    margin-bottom: 10px;
 }
 .card a{
     font: 17px/20px 'Roboto', sans-serif;
@@ -109,4 +115,8 @@
 }
 .card:not(:last-child) {
     margin-right: 63px;
+}
+.cards img{
+    max-width: 309px;
+    display: inline-block;
 }
