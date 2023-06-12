@@ -1,16 +1,19 @@
 .container {
     max-width: 1064px;
+    margin: auto;
 }
 .main_banner{
     background: #F0EFEB;
     padding: 90px 0;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 .main_banner article{
     display: flex;
     align-items: center;
 }
+
 .humanity h1 {
     font: 60px/70px 'Roboto', sans-serif;
     font-weight: 700;
@@ -36,13 +39,19 @@
     text-decoration: none;
     display: inline-block;
 }
+.first-img {
+    position: absolute;
+    width: 599px;
+    height: 521px;
+    left: 781px;
+    top: -9px;
+    padding: 9px 60px 24px;
+}
 .guides {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
     margin-bottom: 189px;
 }
-.guides .description {
+.description {
     text-align: center;
     margin-top: 60px;
 }
@@ -52,26 +61,26 @@
     text-align: center;
     color: #000000;
 }
-.guides .description h3 {
+.description h3 {
     margin-bottom: 27px;
 }
-.guides .description .teaser {
+.teaser {
     margin-bottom: 47px;
-    width: 632px;
+    display: inline-block;
     font: 20px/23px 'Roboto', sans-serif;
     font-weight: 400;
-    text-align: center;
     color: #000000;
+    text-align: center;
+    max-width: 632px;
 }
-.guides .description .availability {
+.availability {
     margin-bottom: 88px;
     font: 20px/23px 'Roboto', sans-serif;
     font-weight: 400;
     text-align: center;
     color: #000000;
 }
-.guides .best-sellers {
-    display: inline-block;
+.best-sellers {
     margin-bottom: 52px;
     font: 36px/42px 'Roboto', sans-serif;
     font-weight: 700;
@@ -81,15 +90,12 @@
 .cards {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 .card {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.img-cards{
-    margin-bottom: 27px;
 }
 
 .card h4{
@@ -113,10 +119,8 @@
     text-decoration-line: underline;
     color: #000000;
 }
-.card:not(:last-child) {
-    margin-right: 63px;
-}
 .cards img{
     max-width: 309px;
     display: inline-block;
+    margin-bottom: 27px;
 }
