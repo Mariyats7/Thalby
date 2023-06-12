@@ -5,13 +5,11 @@
 .main_banner{
     background: #F0EFEB;
     padding: 90px 0;
-    display: flex;
-    justify-content: center;
     position: relative;
 }
 .main_banner article{
     display: flex;
-    align-items: center;
+    justify-content: space-between;
 }
 
 .humanity h1 {
@@ -19,14 +17,14 @@
     font-weight: 700;
     color: #000000;
     margin-bottom: 42px;
-    width: 534px;
+    max-width: 534px;
 }
 .humanity h5 {
     font: 24px/28px 'Roboto', sans-serif;
     font-weight: 400;
     color: #000000;
     margin-bottom: 26px;
-    width: 481px;
+    max-width: 481px;
 }
 .humanity a {
     font: 17px/20px 'Roboto', sans-serif;
@@ -41,11 +39,10 @@
 }
 .first-img {
     position: absolute;
-    width: 599px;
+    max-width: 599px;
     height: 521px;
     left: 781px;
     top: -9px;
-    padding: 9px 60px 24px;
 }
 .guides {
     text-align: center;
